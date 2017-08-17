@@ -28,7 +28,7 @@ public class EpicEvents implements Listener{
         if (!(event.getWhoClicked() instanceof Player)) return;
         Player player = (Player) event.getWhoClicked();
         if(!EpicInventory.epicInventoryMap.containsKey(player)) return;
-        if(event.getInventory() == EpicInventory.epicInventoryMap.get(player).getInventory()) return;
+        if(!event.getInventory().getName().equals(EpicInventory.epicInventoryMap.get(player).getInventory().getName())) return;
         if (event.getCurrentItem().getType() == Material.AIR) return;
 
         EpicInventory.epicInventoryMap.get(player).onClick(event);
