@@ -1,8 +1,6 @@
 package be.feeps.epicballoons.nms.v1_12_R1;
 
 import be.feeps.epicballoons.utils.MathUtils;
-import be.feeps.epicballoons.utils.PlayersUtils;
-import io.netty.util.internal.MathUtil;
 import net.minecraft.server.v1_12_R1.DamageSource;
 import net.minecraft.server.v1_12_R1.EntitySlime;
 import net.minecraft.server.v1_12_R1.World;
@@ -12,7 +10,6 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Slime;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.util.EulerAngle;
 
 /**
  * Created by Feeps on 16/08/2017
