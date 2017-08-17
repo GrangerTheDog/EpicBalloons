@@ -1,0 +1,36 @@
+name: EpicBalloons
+author: Feeps
+version: 1.0
+main: be.feeps.epicballoons.Main
+description: Only Feeps know the reals balloons
+commands:
+  balloons:
+    description: Spawn a balloon
+    usage: /balloons
+    aliases: [balloon, ballon]
+permissions:
+  epicballoons.player.*:
+    default: false
+    description: Get all permissions for a player
+    children:
+       epicballoons.slime: true
+       epicballoons.netherwarts: true
+       epicballoons.sponge: true
+       epicballoons.cactus: true
+       epicballoons.glass: true
+       epicballoons.leaves: true
+       epicballoons.tnt: true
+       epicballoons.globe: true
+       epicballoons.blackballoon: true
+       epicballoons.whiteballoon: true
+       epicballoons.illusion: true
+       epicballoons.beachball: true
+       epicballoons.pokeball: true
+       epicballoons.rubikscube: true
+       epicballoons.globe2: true
+       epicballoons.eye: true
+       epicballoons.target: true
+       epicballoons.greenore: true
+       epicballoons.firecharge: true
+       epicballoons.cocoapod: true
+       epicballoons.netherportal: true
